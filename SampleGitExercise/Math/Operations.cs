@@ -29,5 +29,16 @@ namespace Math
         {
             return a - b;
         }
+
+        /// <summary>
+        /// Returns the product of a multiplied by b
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static int Multiply (int a, int b)
+        {
+            return a * b;
+        }
     }
 }
